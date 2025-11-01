@@ -1,94 +1,100 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import Contact from "../sections/Contact";
+import Footer from "../sections/Footer";
 
 export default function News() {
   const news = [
     {
       id: 1,
       title: "Bí quyết phục hồi biển số cũ sáng bóng như mới",
-      desc: "Tìm hiểu quy trình làm mới biển số xe cũ bằng công nghệ ép nhiệt hiện đại.",
-      img: "https://source.unsplash.com/random/800x600?license-plate",
+      desc: "Khám phá quy trình ép và phục hồi biển số chuyên nghiệp bằng công nghệ Titan 3.5mm – bền đẹp chuẩn ISO.",
+      img: "https://i.postimg.cc/nhpFT5Rn/48.jpg",
     },
     {
       id: 2,
-      title: "Top 5 khung biển số titan bền đẹp năm 2025",
-      desc: "Cập nhật xu hướng khung biển số titan mới nhất, vừa sang trọng vừa bền bỉ.",
-      img: "https://source.unsplash.com/random/800x600?titan",
+      title: "Công nghệ ép Titan cao cấp – Chuẩn quốc tế",
+      desc: "Công nghệ ép biển số tiên tiến giúp chống oxy hóa, chống phai màu và sáng bóng hơn gấp 3 lần so với biển truyền thống.",
+      img: "https://i.postimg.cc/jStxv9gW/55.jpg",
     },
     {
       id: 3,
-      title: "Lý do bạn nên phục hồi thay vì làm biển số mới",
-      desc: "Phục hồi giúp tiết kiệm chi phí, bảo tồn số cũ và vẫn đảm bảo tính thẩm mỹ.",
-      img: "https://source.unsplash.com/random/800x600?car-number",
+      title: "Quy trình ép biển số đạt chuẩn Bộ GTVT",
+      desc: "Từng bước ép biển được thực hiện chính xác bằng máy ép thủy lực Titan, đảm bảo phẳng tuyệt đối và bền lâu.",
+      img: "https://i.postimg.cc/vZbYXjqW/61.jpg",
     },
     {
       id: 4,
-      title: "Cảnh báo biển số giả tràn lan trên thị trường",
-      desc: "Chuyên gia khuyên người tiêu dùng nên chọn cơ sở uy tín khi ép hoặc thay biển.",
-      img: "https://source.unsplash.com/random/800x600?traffic-police",
+      title: "Trải nghiệm thực tế tại ÉP BIỂN SỐ THỨC",
+      desc: "Cửa hàng hiện đại, máy móc tiên tiến và đội ngũ kỹ thuật viên lành nghề luôn sẵn sàng phục vụ khách hàng.",
+      img: "https://i.postimg.cc/Vkmf4TGr/56.jpg",
     },
     {
       id: 5,
-      title: "Công nghệ ép nhiệt titan – bước tiến mới trong phục hồi biển số",
-      desc: "Khám phá công nghệ titan ép biển số giúp bề mặt sáng bóng và chống trầy xước.",
-      img: "https://source.unsplash.com/random/800x600?metal",
+      title: "Sự khác biệt giữa Titan và biển nhôm thường",
+      desc: "Biển Titan có khả năng chịu nhiệt, chống trầy và phản quang mạnh hơn nhiều so với nhôm – lựa chọn số 1 hiện nay.",
+      img: "https://i.postimg.cc/GmKcfQVq/67.jpg",
     },
     {
       id: 6,
-      title: "Thực hư chuyện bị phạt khi làm lại biển số xe",
-      desc: "Luật sư giải thích rõ khi nào được phép ép, phục hồi hoặc thay biển số hợp pháp.",
-      img: "https://source.unsplash.com/random/800x600?law",
+      title: "Khách hàng hài lòng tuyệt đối sau khi phục hồi",
+      desc: "Hơn 10.000 khách hàng đã tin tưởng ÉP BIỂN SỐ THỨC với chất lượng vượt trội và bảo hành dài hạn.",
+      img: "https://i.postimg.cc/4xSLqdxj/42.jpg",
     },
     {
       id: 7,
-      title: "Mẹo bảo quản biển số tránh bong tróc, phai màu",
-      desc: "Giữ cho biển số xe luôn bền đẹp bằng vài mẹo đơn giản tại nhà.",
-      img: "https://source.unsplash.com/random/800x600?cleaning",
+      title: "Tinh thần Việt trong từng tấm biển số",
+      desc: "Thức Ép Biển Số mang niềm tự hào dân tộc Việt, tận tâm và tỉ mỉ trong từng chi tiết.",
+      img: "https://i.postimg.cc/L58dLBCw/co2.png",
     },
     {
       id: 8,
-      title: "Khách hàng chia sẻ trải nghiệm phục hồi biển số thành công",
-      desc: "Hàng nghìn khách hàng đã tin tưởng và hài lòng với dịch vụ của chúng tôi.",
-      img: "https://source.unsplash.com/random/800x600?happy-customer",
-    },
-    {
-      id: 9,
-      title: "So sánh biển số ép titan và biển số nhôm truyền thống",
-      desc: "Hai loại vật liệu khác nhau – ưu nhược điểm ra sao?",
-      img: "https://source.unsplash.com/random/800x600?comparison",
-    },
-    {
-      id: 10,
-      title: "Xưởng phục hồi biển số lớn nhất miền Trung khai trương chi nhánh mới",
-      desc: "Đáp ứng nhu cầu ngày càng tăng, chi nhánh mới chính thức hoạt động tại Đà Nẵng.",
-      img: "https://source.unsplash.com/random/800x600?garage",
+      title: "Khách hàng phản hồi tích cực trên mạng xã hội",
+      desc: "Những đánh giá 5 sao và hàng trăm bình luận tích cực là minh chứng cho uy tín của chúng tôi.",
+      img: "https://i.postimg.cc/9QCm1S80/52.jpg",
     },
   ];
 
   return (
-    <div className="py-20 bg-white relative">
-      <h1 className="text-5xl font-extrabold text-center text-red-700 mb-16 drop-shadow-lg">
-        🔥 TIN TỨC NỔI BẬT
-      </h1>
+    <section className="bg-gradient-to-b from-white via-gray-50 to-yellow-50 relative overflow-hidden">
+      {/* Hiệu ứng ánh sáng nền */}
+      <div className="absolute -top-32 left-0 w-[600px] h-[600px] bg-yellow-200/30 blur-3xl rounded-full"></div>
+      <div className="absolute bottom-0 right-0 w-[700px] h-[700px] bg-indigo-200/30 blur-3xl rounded-full"></div>
 
-      <div className="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto px-6">
+      {/* Tiêu đề */}
+      <motion.h1
+        className=" mt-[10px] text-3xl font-extrabold text-center text-red-700 mb-16 drop-shadow-lg"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        📰 TIN TỨC MỚI NHẤT TỪ{" "}
+        <span className="text-yellow-500">ÉP BIỂN SỐ THỨC</span>
+      </motion.h1>
+
+      {/* Danh sách bài viết */}
+      <div className="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto px-6 relative z-10">
         {news.map((n, i) => (
           <motion.div
             key={i}
-            className="bg-gray-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
+            className="bg-white/90 backdrop-blur-md rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-yellow-300/20"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: i * 0.05 }}
           >
-            <div className="overflow-hidden">
+            {/* Ảnh */}
+            <div className="overflow-hidden relative group">
               <img
                 src={n.img}
                 alt={n.title}
-                className="w-full h-56 object-cover hover:scale-105 transition-transform duration-700"
+                className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-700"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
-            <div className="p-6">
+
+            {/* Nội dung */}
+            <div className="p-6 text-left">
               <h2 className="text-xl font-bold text-indigo-700 mb-2 line-clamp-2">
                 {n.title}
               </h2>
@@ -97,7 +103,7 @@ export default function News() {
               </p>
               <Link
                 to={`/news/${n.id}`}
-                className="text-red-600 font-semibold hover:underline text-sm"
+                className="inline-block text-red-600 font-semibold hover:underline text-sm mt-2"
               >
                 Xem chi tiết →
               </Link>
@@ -105,6 +111,21 @@ export default function News() {
           </motion.div>
         ))}
       </div>
-    </div>
+
+      {/* CTA cuối */}
+      <div className="text-center mt-20 py-20">
+        <p className="text-gray-700 text-lg mb-6">
+          Cập nhật tin tức mới nhất về công nghệ ép biển số và xu hướng xe Việt!
+        </p>
+        <Link
+          to="/restore"
+          className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-8 py-3 rounded-full shadow-md transition"
+        >
+          🔧 Xem Quy Trình Phục Hồi Biển Số →
+        </Link>
+      </div>
+       <Contact />
+      <Footer />
+    </section>
   );
 }

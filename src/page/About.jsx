@@ -25,14 +25,15 @@ function About() {
       <div className="relative z-10 px-6 max-w-6xl mx-auto">
         {/* Tiêu đề lớn */}
         <motion.h1
-          className="text-5xl md:text-6xl font-extrabold text-indigo-800 mb-6 drop-shadow-lg"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-        >
-          <span className="text-yellow-500">ÉP BIỂN SỐ THỨC</span> —  
-          Đỉnh Cao Nghệ Thuật Ép Biển Số Việt
-        </motion.h1>
+  className="mt-[10px] text-4xl md:text-6xl font-extrabold text-indigo-800 mb-6 drop-shadow-lg leading-tight"
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7 }}
+>
+  <span className="block text-yellow-500">ÉP BIỂN SỐ THỨC</span>
+  <span className="block">Đỉnh Cao Nghệ Thuật Ép Biển Số Việt</span>
+</motion.h1>
+
 
         {/* Mô tả */}
         <motion.p
