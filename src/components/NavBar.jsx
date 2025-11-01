@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
-import { FaPhoneAlt, FaSearch } from "react-icons/fa";
+import { FaPhoneAlt, FaSearch, FaFacebookF, FaTiktok } from "react-icons/fa";
+import { SiZalo } from "react-icons/si";
 
 const links = [
   { to: "/", label: "TRANG CHỦ" },
@@ -18,27 +19,37 @@ export default function NavBar() {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
+      {/* Top Bar */}
       <div className="flex flex-col md:flex-row items-center justify-between px-6 py-3 border-b border-gray-200">
         <div className="flex items-center gap-4">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg"
-            alt="Logo"
-            className="w-16 h-16"
-          />
+          {/* ✅ LOGO */}
+          <Link to="/">
+            <img
+              src="/logo.png" // Logo trong public
+              alt="Logo Thức Biển Số"
+              className="w-16 h-16 object-contain"
+            />
+          </Link>
+
           <div>
             <h1 className="text-3xl font-extrabold text-red-800">THỨC BIỂN SỐ</h1>
             <p className="text-gray-600 text-sm">Phục hồi biển số cũ - Đẹp như mới</p>
           </div>
         </div>
+
+        {/* Contact info */}
         <div className="mt-4 md:mt-0 flex items-center gap-3 text-red-700 font-semibold">
           <FaPhoneAlt className="text-blue-700 text-xl" />
           <div className="text-right">
             <p className="text-sm text-gray-700">Tư Vấn Hỗ Trợ 24/7:</p>
-            <p className="text-2xl font-bold text-red-700">0352 429 477</p>
+            <a href="tel:0977055990" className="text-2xl font-bold text-red-700">
+              0977 055 990
+            </a>
           </div>
         </div>
       </div>
 
+      {/* Navigation Menu */}
       <nav className="bg-blue-900 text-white font-semibold">
         <div className="flex justify-between items-center px-6 h-12">
           <ul className="hidden md:flex space-x-6 uppercase text-sm tracking-wide">
@@ -55,7 +66,11 @@ export default function NavBar() {
               </li>
             ))}
           </ul>
+
+          {/* Search icon */}
           <FaSearch className="hidden md:block text-white text-lg" />
+
+          {/* Mobile menu button */}
           <button onClick={() => setOpen(true)} className="md:hidden text-white text-2xl">
             <Menu />
           </button>
@@ -73,28 +88,78 @@ export default function NavBar() {
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               transition={{ type: "spring", stiffness: 260, damping: 25 }}
-              className="absolute right-0 top-0 h-full w-64 bg-blue-900 p-6 text-white"
+              className="absolute right-0 top-0 h-full w-72 bg-blue-900 p-6 text-white flex flex-col justify-between"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="flex justify-between items-center mb-6">
-                <span className="font-bold text-lg">MENU</span>
-                <button onClick={() => setOpen(false)}>
-                  <X className="h-6 w-6" />
-                </button>
-              </div>
-              <ul className="space-y-4">
-                {links.map((l, i) => (
-                  <li key={i}>
-                    <Link
-                      to={l.to}
-                      className="block px-3 py-2 hover:bg-red-700 rounded"
-                      onClick={() => setOpen(false)}
+              <div>
+                {/* ✅ Logo + Thông tin liên hệ + Mạng xã hội */}
+                <div className="flex flex-col items-center mb-6">
+                  <img
+                    src="/logo.png"
+                    alt="Logo Thức Biển Số"
+                    className="w-20 h-20 mb-2"
+                  />
+                  <h2 className="text-lg font-bold mb-1">THỨC BIỂN SỐ</h2>
+                  <a href="tel:0977055990" className="text-yellow-300 font-semibold mb-2">
+                    0977 055 990
+                  </a>
+
+                  {/* Social icons */}
+                  <div className="flex gap-3 mt-3">
+                    <a
+                      href="https://www.facebook.com/share/14PvS32VEaf/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 p-2 rounded-full hover:scale-110 transition"
                     >
-                      {l.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+                      <FaFacebookF size={18} />
+                    </a>
+                    <a
+                      href="https://zalo.me/84977055990"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-cyan-500 p-2 rounded-full hover:scale-110 transition"
+                    >
+                      <SiZalo size={18} />
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/@thucepbienso?_r=1&_t=ZS-911ZVIt9gHP"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-black p-2 rounded-full hover:scale-110 transition"
+                    >
+                      <FaTiktok size={18} />
+                    </a>
+                  </div>
+                </div>
+
+                {/* Danh sách liên kết */}
+                <div className="flex justify-between items-center mb-4">
+                  <span className="font-bold text-lg">MENU</span>
+                  <button onClick={() => setOpen(false)}>
+                    <X className="h-6 w-6" />
+                  </button>
+                </div>
+
+                <ul className="space-y-4">
+                  {links.map((l, i) => (
+                    <li key={i}>
+                      <Link
+                        to={l.to}
+                        className="block px-3 py-2 hover:bg-red-700 rounded"
+                        onClick={() => setOpen(false)}
+                      >
+                        {l.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Phần dưới cùng: Hotline hoặc bản quyền */}
+              <div className="mt-6 text-center text-sm opacity-70">
+                <p>© 2025 THỨC BIỂN SỐ</p>
+              </div>
             </motion.div>
           </motion.div>
         )}

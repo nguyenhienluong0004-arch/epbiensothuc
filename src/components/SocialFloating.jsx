@@ -6,7 +6,7 @@ function SocialFloating() {
     <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
       {/* Facebook */}
       <a
-        href="https://facebook.com"
+        href="https://www.facebook.com/share/14PvS32VEaf/"
         target="_blank"
         rel="noopener noreferrer"
         className="relative bg-blue-600 text-white p-3 rounded-full shadow-lg hover:scale-110 transition transform"
@@ -17,7 +17,7 @@ function SocialFloating() {
 
       {/* Zalo */}
       <a
-        href="https://zalo.me"
+        href="https://zalo.me/84977055990" // ✅ Sửa lại link Zalo chuẩn có mã quốc gia (+84)
         target="_blank"
         rel="noopener noreferrer"
         className="relative bg-cyan-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition transform"
@@ -28,7 +28,7 @@ function SocialFloating() {
 
       {/* TikTok */}
       <a
-        href="https://tiktok.com"
+        href="https://www.tiktok.com/@thucepbienso?_r=1&_t=ZS-911ZVIt9gHP"
         target="_blank"
         rel="noopener noreferrer"
         className="relative bg-black text-white p-3 rounded-full shadow-lg hover:scale-110 transition transform"
