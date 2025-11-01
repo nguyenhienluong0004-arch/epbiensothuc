@@ -8,7 +8,7 @@ export default function News() {
     {
       id: 1,
       title: "Bí quyết phục hồi biển số cũ sáng bóng như mới",
-      desc: "Khám phá quy trình ép và phục hồi biển số chuyên nghiệp bằng công nghệ Titan 3.5mm – bền đẹp chuẩn ISO.",
+      desc: "Khám phá quy trình ép và phục hồi biển số chuyên nghiệp bằng công nghệ Titan 3mm – bền đẹp chuẩn ISO.",
       img: "https://i.postimg.cc/nhpFT5Rn/48.jpg",
     },
     {

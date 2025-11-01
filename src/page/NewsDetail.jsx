@@ -10,7 +10,7 @@ export default function NewsDetail() {
      content: `
 <div class="space-y-6 text-gray-800 text-lg leading-relaxed">
   <p>
-    <strong>Công nghệ ép Titan 3.5mm</strong> tại 
+    <strong>Công nghệ ép Titan 3mm</strong> tại 
     <span class="text-indigo-700 font-semibold"> ÉP BIỂN SỐ THỨC </span> 
     đang là bước tiến vượt trội giúp phục hồi biển số xe cũ trở lại như mới, sáng bóng và bền đẹp hơn bao giờ hết.
   </p>
@@ -30,7 +30,7 @@ export default function NewsDetail() {
     <li>Tiếp nhận & kiểm tra tình trạng biển số – xác định mức độ cong, phai, bong sơn.</li>
     <li>Tẩy rửa bề mặt bằng dung dịch chuyên dụng – loại bỏ bụi bẩn và gỉ sét.</li>
     <li>Phủ lớp chống oxy hóa – bảo vệ bề mặt kim loại trước khi ép.</li>
-    <li>Ép Titan 3.5mm bằng mica cao cấp – chống tia UV, tăng độ phản sáng.</li>
+    <li>Ép Titan 3mm bằng mica cao cấp – chống tia UV, tăng độ phản sáng.</li>
     <li>Kiểm định độ phẳng và độ sáng – đảm bảo bề mặt đạt chuẩn thẩm mỹ.</li>
     <li>Phủ nano bảo vệ – chống nước, chống bám bụi, sáng bóng lâu dài.</li>
   </ul>
@@ -39,9 +39,9 @@ export default function NewsDetail() {
     Kết quả là biển số sau khi ép lại phẳng mịn, sáng như gương, chống trầy, chống ố vàng và bền màu trên 5 năm.
   </p>
 
-  <h3 class="text-2xl font-bold text-yellow-600 mt-8">💎 Ưu điểm của công nghệ Titan 3.5mm</h3>
+  <h3 class="text-2xl font-bold text-yellow-600 mt-8">💎 Ưu điểm của công nghệ Titan 3mm</h3>
   <p>
-    Lớp mica Titan dày 3.5mm giúp tăng độ cứng gấp đôi so với mica thường. 
+    Lớp mica Titan dày 3mm giúp tăng độ cứng gấp đôi so với mica thường. 
     Chất liệu này phản sáng cực tốt, tạo hiệu ứng ánh kim sang trọng khi đi dưới nắng hoặc đèn pha.
   </p>
 
@@ -159,7 +159,7 @@ export default function NewsDetail() {
   <ol class="list-decimal pl-6 space-y-1">
     <li>Vệ sinh và làm phẳng bề mặt biển kim loại gốc.</li>
     <li>Chà nhám tạo độ bám Titan – giúp Titan liên kết chặt với mica trong suốt.</li>
-    <li>Ép Titan 3.5mm dưới nhiệt độ và áp suất được kiểm soát bằng máy CNC tự động.</li>
+    <li>Ép Titan 3mm dưới nhiệt độ và áp suất được kiểm soát bằng máy CNC tự động.</li>
     <li>Kiểm tra độ phẳng, độ sáng và màu sắc ánh kim trước khi phủ nano.</li>
     <li>Hoàn thiện viền inox chống va đập, đảm bảo độ bền tổng thể.</li>
   </ol>
@@ -175,7 +175,7 @@ export default function NewsDetail() {
     <thead class="bg-yellow-100 text-gray-800">
       <tr>
         <th class="border p-2 text-left">Tiêu chí</th>
-        <th class="border p-2 text-left">Titan 3.5mm</th>
+        <th class="border p-2 text-left">Titan 3mm</th>
         <th class="border p-2 text-left">Nhôm truyền thống</th>
       </tr>
     </thead>
@@ -285,7 +285,7 @@ export default function NewsDetail() {
   <ol class="list-decimal pl-6 space-y-1">
     <li>Tiếp nhận và kiểm tra tình trạng biển số cũ.</li>
     <li>Loại bỏ lớp sơn, gỉ sét và tẩy sạch bề mặt bằng dung dịch chuyên dụng.</li>
-    <li>Ép nhiệt bằng công nghệ Titan 3.5mm – chống oxy hóa, chống phai màu.</li>
+    <li>Ép nhiệt bằng công nghệ Titan 3mm – chống oxy hóa, chống phai màu.</li>
     <li>Phủ lớp nano bảo vệ – chống bám bụi, chống nước.</li>
     <li>Kiểm tra ánh sáng phản quang, viền, độ phẳng và độ bền trước khi bàn giao.</li>
   </ol>
@@ -428,7 +428,7 @@ export default function NewsDetail() {
   </p>
 
   <ul class="list-disc pl-6 space-y-1">
-    <li><strong>Vật liệu Titan 3.5mm:</strong> chống trầy, chống oxy hóa, phản sáng cực tốt.</li>
+    <li><strong>Vật liệu Titan 3mm:</strong> chống trầy, chống oxy hóa, phản sáng cực tốt.</li>
     <li><strong>Ép thủy lực CNC:</strong> đảm bảo độ phẳng tuyệt đối và viền sắc nét.</li>
     <li><strong>Bảo hành 24 tháng:</strong> nếu bong, phai, tróc – đổi mới miễn phí.</li>
     <li><strong>Được cấp phép hoạt động hợp pháp:</strong> quy trình đạt chuẩn ISO.</li>
@@ -452,7 +452,7 @@ export default function NewsDetail() {
     <tbody>
       <tr>
         <td class="border p-2">Chất liệu</td>
-        <td class="border p-2 text-green-700 font-semibold">Titan 3.5mm, mica phản quang chuẩn</td>
+        <td class="border p-2 text-green-700 font-semibold">Titan 3mm, mica phản quang chuẩn</td>
         <td class="border p-2 text-gray-600">Nhôm mỏng, sơn tay, dễ trầy</td>
       </tr>
       <tr>
@@ -520,28 +520,28 @@ export default function NewsDetail() {
     content: `
 <div class="space-y-6 text-gray-800 text-lg leading-relaxed">
   <p>
-    <strong>Công nghệ ép Titan 3.5mm</strong> là bước tiến vượt bậc trong lĩnh vực phục hồi và gia công biển số xe tại Việt Nam. 
+    <strong>Công nghệ ép Titan 3mm</strong> là bước tiến vượt bậc trong lĩnh vực phục hồi và gia công biển số xe tại Việt Nam. 
     Đây là công nghệ tiên tiến nhất được <span class="text-indigo-700 font-semibold">ÉP BIỂN SỐ THỨC – Biên Hòa</span> 
     áp dụng độc quyền, giúp mang lại độ sáng, độ bền và tính thẩm mỹ vượt trội so với các phương pháp ép thông thường.
   </p>
 
-  <h3 class="text-2xl font-bold text-yellow-600 mt-8">⚙️ Công nghệ Titan 3.5mm là gì?</h3>
+  <h3 class="text-2xl font-bold text-yellow-600 mt-8">⚙️ Công nghệ Titan 3mm là gì?</h3>
   <p>
-    Titan 3.5mm là vật liệu kim loại cao cấp, được chế tạo bằng hợp kim Titan nguyên chất, 
+    Titan 3mm là vật liệu kim loại cao cấp, được chế tạo bằng hợp kim Titan nguyên chất, 
     có khả năng <strong>chống oxy hóa, chống gỉ sét</strong> và chịu nhiệt cực tốt. 
     Khi được ép lên biển số thông qua công nghệ nhiệt áp lực cao, Titan tạo nên bề mặt sáng bóng, 
     mịn như gương, vừa đẹp vừa bền bỉ theo thời gian.
   </p>
 
   <p>
-    Khác với các loại biển mica thông thường chỉ dày 1–2mm, Titan 3.5mm có cấu trúc cứng hơn gấp 3 lần, 
+    Khác với các loại biển mica thông thường chỉ dày 1–2mm, Titan 3mm có cấu trúc cứng hơn gấp 3 lần, 
     giúp tăng khả năng chống va đập, chống trầy xước và không bị cong vênh khi gặp nhiệt độ cao.
   </p>
 
-  <h3 class="text-2xl font-bold text-yellow-600 mt-8">💎 Ưu điểm vượt trội của công nghệ ép Titan 3.5mm</h3>
+  <h3 class="text-2xl font-bold text-yellow-600 mt-8">💎 Ưu điểm vượt trội của công nghệ ép Titan 3mm</h3>
   <ul class="list-disc pl-6 space-y-1">
     <li><strong>Sáng bóng và phản quang cao:</strong> Bề mặt Titan phản chiếu ánh sáng cực tốt, giúp biển nổi bật cả ngày lẫn đêm.</li>
-    <li><strong>Chống trầy, chống phai:</strong> Titan 3.5mm có khả năng tự bảo vệ, không bong sơn và giữ màu lên đến 7 năm.</li>
+    <li><strong>Chống trầy, chống phai:</strong> Titan 3mm có khả năng tự bảo vệ, không bong sơn và giữ màu lên đến 7 năm.</li>
     <li><strong>Chịu nhiệt & chịu lực cực tốt:</strong> Biển không bị biến dạng khi gặp thời tiết nóng ẩm hoặc va chạm nhẹ.</li>
     <li><strong>Thẩm mỹ cao:</strong> Biển ép Titan có ánh kim sang trọng, làm nổi bật xe và thể hiện phong cách chủ xe.</li>
     <li><strong>An toàn & hợp pháp:</strong> Toàn bộ quy trình ép được thực hiện đúng quy chuẩn Bộ GTVT, có tem bảo hành 24 tháng.</li>
@@ -549,7 +549,7 @@ export default function NewsDetail() {
 
   <h3 class="text-2xl font-bold text-yellow-600 mt-8">🏭 Quy trình ép Titan tại ÉP BIỂN SỐ THỨC Biên Hòa</h3>
   <p>
-    Quy trình ép Titan 3.5mm tại xưởng Thức được tự động hóa bằng hệ thống máy ép thủy lực 
+    Quy trình ép Titan 3mm tại xưởng Thức được tự động hóa bằng hệ thống máy ép thủy lực 
     và máy ép nhiệt CNC công suất lớn – đảm bảo độ chính xác tuyệt đối.
   </p>
 
@@ -566,19 +566,19 @@ export default function NewsDetail() {
     Khi cầm lên tay, khách hàng có thể cảm nhận rõ độ dày, sự mát lạnh và chắc chắn đặc trưng của Titan.
   </p>
 
-  <h3 class="text-2xl font-bold text-yellow-600 mt-8">📊 So sánh Titan 3.5mm và mica thông thường</h3>
+  <h3 class="text-2xl font-bold text-yellow-600 mt-8">📊 So sánh Titan 3mm và mica thông thường</h3>
   <table class="w-full border-collapse border border-gray-200 text-sm md:text-base">
     <thead class="bg-yellow-100 text-gray-800">
       <tr>
         <th class="border p-2 text-left">Tiêu chí</th>
-        <th class="border p-2 text-left">Titan 3.5mm</th>
+        <th class="border p-2 text-left">Titan 3mm</th>
         <th class="border p-2 text-left">Mica thông thường</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td class="border p-2">Độ dày</td>
-        <td class="border p-2 font-semibold text-green-700">3.5mm – cứng chắc</td>
+        <td class="border p-2 font-semibold text-green-700">3mm – cứng chắc</td>
         <td class="border p-2 text-gray-600">1.5mm – dễ cong</td>
       </tr>
       <tr>
@@ -606,7 +606,7 @@ export default function NewsDetail() {
 
   <h3 class="text-2xl font-bold text-yellow-600 mt-8">💬 Cảm nhận từ khách hàng</h3>
   <blockquote class="border-l-4 border-indigo-500 pl-4 italic text-gray-700">
-    “Mình ép biển Titan 3.5mm tại Thức, nhìn sang hẳn – xe sáng như mới, đi mưa nắng vẫn y như ban đầu.”  
+    “Mình ép biển Titan 3mm tại Thức, nhìn sang hẳn – xe sáng như mới, đi mưa nắng vẫn y như ban đầu.”  
     <br/>— Anh Duy, Biên Hòa.
   </blockquote>
 
@@ -637,7 +637,7 @@ export default function NewsDetail() {
   </p>
 
   <p class="mt-8 font-semibold text-gray-700">
-    — <span class="text-indigo-700">Công nghệ Titan 3.5mm – sáng hơn, bền hơn, đẳng cấp hơn – chỉ có tại Thức Ép Biển Số.</span>
+    — <span class="text-indigo-700">Công nghệ Titan 3mm – sáng hơn, bền hơn, đẳng cấp hơn – chỉ có tại Thức Ép Biển Số.</span>
   </p>
 </div>
 `,
@@ -656,7 +656,7 @@ export default function NewsDetail() {
   <p>
     Đó là cảm nhận chung của hàng nghìn khách hàng đã lựa chọn 
     <span class="text-indigo-700 font-semibold">ÉP BIỂN SỐ THỨC</span> 
-    – đơn vị tiên phong trong công nghệ phục hồi và ép biển Titan 3.5mm tại khu vực Biên Hòa, Đồng Nai.  
+    – đơn vị tiên phong trong công nghệ phục hồi và ép biển Titan 3mm tại khu vực Biên Hòa, Đồng Nai.  
     Mỗi tấm biển không chỉ được “tái sinh” về hình thức mà còn được bảo vệ toàn diện bằng công nghệ 
     <strong>ép nhiệt Titan CNC</strong> độc quyền.
   </p>
@@ -705,7 +705,7 @@ export default function NewsDetail() {
   <h3 class="text-2xl font-bold text-yellow-600 mt-8">⚙️ Vì sao khách hàng chọn Thức?</h3>
   <ul class="list-disc pl-6 space-y-1">
     <li><strong>Máy ép Titan tự động CNC:</strong> đảm bảo từng chi tiết phẳng và chuẩn.</li>
-    <li><strong>Vật liệu Titan 3.5mm:</strong> siêu bền, chống oxy hóa, phản quang tốt.</li>
+    <li><strong>Vật liệu Titan 3mm:</strong> siêu bền, chống oxy hóa, phản quang tốt.</li>
     <li><strong>Phủ nano bảo vệ:</strong> không bong tróc, chống ố vàng.</li>
     <li><strong>Thời gian thực hiện:</strong> chỉ 10–20 phút, nhận ngay.</li>
     <li><strong>Bảo hành 24 tháng:</strong> nếu bong, phai, tróc – đổi mới miễn phí.</li>
@@ -753,7 +753,7 @@ export default function NewsDetail() {
 
   <h3 class="text-2xl font-bold text-yellow-600 mt-8">🚘 Hậu phục hồi – Biển sáng như mới</h3>
   <p>
-    Sau khi ép lại bằng Titan 3.5mm, biển không chỉ sáng mà còn phản chiếu ánh sáng mạnh hơn, 
+    Sau khi ép lại bằng Titan 3mm, biển không chỉ sáng mà còn phản chiếu ánh sáng mạnh hơn, 
     giúp người lái dễ nhận diện trong điều kiện đêm hoặc mưa.  
     Lớp phủ nano giúp hạn chế bám bẩn, nước trôi nhanh, giữ bề mặt luôn sạch bóng.
   </p>
@@ -806,7 +806,7 @@ export default function NewsDetail() {
   </p>
   <ul class="list-disc pl-6 space-y-1">
     <li><strong>Tỉ mỉ từ khâu phục hồi:</strong> làm phẳng, sơn lại, xử lý rỉ sét từng milimet.</li>
-    <li><strong>Chuẩn xác khi ép:</strong> dùng máy ép Titan 3.5mm tự động, đảm bảo độ phẳng và phản quang chuẩn Bộ GTVT.</li>
+    <li><strong>Chuẩn xác khi ép:</strong> dùng máy ép Titan 3mm tự động, đảm bảo độ phẳng và phản quang chuẩn Bộ GTVT.</li>
     <li><strong>Tận tâm khi bàn giao:</strong> lau sạch, đóng gói, dán tem bảo hành và hướng dẫn bảo quản chi tiết.</li>
   </ul>
 
@@ -819,7 +819,7 @@ export default function NewsDetail() {
   <p>
     <strong>ÉP BIỂN SỐ THỨC</strong> luôn tin rằng: “<em>Chất lượng thật sẽ tự nói thay lời quảng cáo</em>”.  
     Chúng tôi chọn con đường bền bỉ – đầu tư máy móc, đào tạo thợ chuyên nghiệp và giữ chữ tín với khách hàng.  
-    Từ vật liệu Titan 3.5mm chuẩn quốc tế đến quy trình ép chuẩn ISO, mọi thứ đều được thực hiện với 
+    Từ vật liệu Titan 3mm chuẩn quốc tế đến quy trình ép chuẩn ISO, mọi thứ đều được thực hiện với 
     <strong>tinh thần sáng tạo của người Việt Nam</strong>.
   </p>
 
@@ -945,7 +945,7 @@ export default function NewsDetail() {
     chia sẻ nhiều nhất gồm:
   </p>
   <ol class="list-decimal pl-6 space-y-1">
-    <li><strong>Phục hồi biển số cũ:</strong> Làm phẳng, ép lại bằng Titan 3.5mm sáng bóng như gương.</li>
+    <li><strong>Phục hồi biển số cũ:</strong> Làm phẳng, ép lại bằng Titan 3mm sáng bóng như gương.</li>
     <li><strong>Ép biển số ô tô khung Titan:</strong> Giúp xe sang trọng, bền đẹp và chống trầy tối đa.</li>
     <li><strong>Bảo hành tận nơi:</strong> Hỗ trợ đổi mới miễn phí nếu bong, tróc, phai màu trong 24 tháng.</li>
   </ol>

@@ -114,7 +114,7 @@ function About() {
         </p>
         <p className="text-gray-800 text-lg flex items-center gap-2">
           <FaCheckCircle className="text-green-600" />
-          Vật liệu cao cấp: mica 3.5mm, inox sáng bóng – bền đẹp theo thời gian.
+          Vật liệu cao cấp: mica 3mm, inox sáng bóng – bền đẹp theo thời gian.
         </p>
         <p className="text-gray-800 text-lg flex items-center gap-2">
           <FaCheckCircle className="text-green-600" />

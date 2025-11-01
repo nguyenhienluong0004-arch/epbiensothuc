@@ -11,7 +11,7 @@ function Footer() {
 
       <p className="max-w-3xl mx-auto text-gray-300 px-4">
         Chuyên ép, phục hồi và làm mới biển số xe máy & ô tô bằng{" "}
-        <strong>mica dày 3.5mm cao cấp</strong>, đạt{" "}
+        <strong>mica dày 3mm cao cấp</strong>, đạt{" "}
         <strong>chuẩn ISO Function quốc tế</strong>.  
         Sản phẩm được bảo hành lên đến{" "}
         <strong>24 tháng</strong> — đảm bảo độ bền, sáng bóng và thẩm mỹ lâu dài.
@@ -26,11 +26,11 @@ function Footer() {
       <meta
         name="description"
         content="ÉP BIỂN SỐ THỨC - Dịch vụ ép, phục hồi biển số xe máy và ô tô chuyên nghiệp. 
-        Sử dụng mica 3.5mm đạt chuẩn ISO Function, bảo hành 24 tháng. Đẹp như mới - Bền như gốc!"
+        Sử dụng mica 3mm đạt chuẩn ISO Function, bảo hành 24 tháng. Đẹp như mới - Bền như gốc!"
       />
       <meta
         itemProp="brand"
-        content="ÉP BIỂN SỐ THỨC - Ép biển số xe chuẩn ISO Function, mica 3.5mm, bảo hành 24 tháng."
+        content="ÉP BIỂN SỐ THỨC - Ép biển số xe chuẩn ISO Function, mica 3mm, bảo hành 24 tháng."
       />
     </footer>
   );

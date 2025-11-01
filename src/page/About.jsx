@@ -4,7 +4,7 @@ import { FaCheckCircle, FaCrown, FaAward, FaTools, FaBolt } from "react-icons/fa
 function About() {
   const achievements = [
     { icon: <FaAward />, title: "7+ năm kinh nghiệm", desc: "Phục hồi và ép biển số hàng nghìn xe mỗi năm." },
-    { icon: <FaTools />, title: "Công nghệ ép Titan 3.5mm", desc: "Chuẩn quốc tế – bền đẹp – sắc nét từng chi tiết." },
+    { icon: <FaTools />, title: "Công nghệ ép Titan 3mm", desc: "Chuẩn quốc tế – bền đẹp – sắc nét từng chi tiết." },
     { icon: <FaBolt />, title: "Ép nhanh – giao ngay", desc: "Chỉ từ 10 phút, lấy ngay, đúng hẹn 100%." },
     { icon: <FaCrown />, title: "Bảo hành 24 tháng", desc: "Chống oxy hóa, bong tróc, phai màu tuyệt đối." },
   ];
@@ -104,7 +104,7 @@ function About() {
           </h2>
           {[
             { year: "2017", title: "Khởi đầu từ niềm đam mê", desc: "Thức bắt đầu nghề ép biển từ đam mê phục hồi cái đẹp cho xe." },
-            { year: "2020", title: "Ứng dụng công nghệ Titan", desc: "Đưa công nghệ ép Titan 3.5mm đầu tiên về Biên Hòa." },
+            { year: "2020", title: "Ứng dụng công nghệ Titan", desc: "Đưa công nghệ ép Titan 3mm đầu tiên về Biên Hòa." },
             { year: "2023", title: "Nâng cấp toàn bộ xưởng", desc: "Trang bị máy móc CNC & ép nhiệt tự động." },
             { year: "2025", title: "Uy tín hàng đầu miền Nam", desc: "Trở thành địa chỉ top đầu trong lĩnh vực ép biển số ô tô & xe máy." },
           ].map((item, i) => (
@@ -134,7 +134,7 @@ function About() {
           </h3>
           <ul className="space-y-3 text-lg text-indigo-50">
             <li className="flex items-center justify-center gap-2">
-              <FaCheckCircle className="text-yellow-400" /> Mica dày 3.5mm – Chuẩn ISO, không mờ theo thời gian.
+              <FaCheckCircle className="text-yellow-400" /> Mica dày 3mm – Chuẩn ISO, không mờ theo thời gian.
             </li>
             <li className="flex items-center justify-center gap-2">
               <FaCheckCircle className="text-yellow-400" /> Bảo hành 24 tháng – ép lỗi đổi mới miễn phí.
@@ -188,7 +188,7 @@ function About() {
             ÉP BIỂN SỐ THỨC — Tận tâm • Uy tín • Chất lượng
           </p>
           <p className="max-w-3xl mx-auto text-gray-300 text-sm leading-relaxed mb-4">
-            Chuyên ép, phục hồi và làm mới biển số xe máy & ô tô bằng <strong>mica dày 3.5mm cao cấp</strong>, đạt chuẩn <strong>ISO Function quốc tế</strong>.  
+            Chuyên ép, phục hồi và làm mới biển số xe máy & ô tô bằng <strong>mica dày 3mm cao cấp</strong>, đạt chuẩn <strong>ISO Function quốc tế</strong>.  
             Sản phẩm được <strong>bảo hành 24 tháng</strong> — đảm bảo độ bền, sáng bóng và thẩm mỹ lâu dài.
           </p>
           <p className="text-gray-400 text-xs">

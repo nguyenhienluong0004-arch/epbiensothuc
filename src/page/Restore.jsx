@@ -28,7 +28,7 @@ export default function Restore12StepsLight() {
     { num: 4, title: "Làm phản quang mới", desc: "Phủ lớp phản quang tiêu chuẩn ISO, tăng độ sáng gấp 3 lần, phản chiếu cực mạnh trong đêm và trời mưa." },
     { num: 5, title: "Lăn sơn cho biển số", desc: "Sơn chuyên dụng chống phai, giữ màu bền, sắc nét và chống tia UV." },
     { num: 6, title: "Vệ sinh & kiểm tra – cắt form", desc: "Cắt chuẩn CNC theo kích thước Bộ GTVT, đảm bảo góc cạnh tinh tế và cân đối." },
-    { num: 7, title: "Ép thủy lực", desc: "Ép bằng máy thủy lực Titan 3.5mm, áp suất cao – không bọt, không cong, chuẩn tuyệt đối." },
+    { num: 7, title: "Ép thủy lực", desc: "Ép bằng máy thủy lực Titan 3mm, áp suất cao – không bọt, không cong, chuẩn tuyệt đối." },
     { num: 8, title: "Chà nhám lần 1 – Tạo độ bám", desc: "Chà nhám nhẹ tạo độ nhám giúp keo & phản quang bám chắc." },
     { num: 9, title: "Chà nhám lần 2 – Làm mịn bề mặt", desc: "Làm phẳng toàn bộ bề mặt, loại bỏ bụi và tạp chất – sẵn sàng cho lớp sơn cuối." },
     { num: 10, title: "Chà nhám lần 3 – Hoàn thiện", desc: "Kiểm tra và xử lý lần cuối, đảm bảo bề mặt sáng, mịn, không xước." },
