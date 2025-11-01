@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
-import { useEffect } from "react";
 
 function About() {
   const images = [
@@ -16,21 +15,6 @@ function About() {
     "https://i.postimg.cc/W4ySXm1C/28.jpg",
     "https://i.postimg.cc/J0YbzMHZ/18.jpg",
   ];
-
-  // ✅ Load SDK Facebook để hiển thị video Reels đúng cách
-  useEffect(() => {
-    if (!window.FB) {
-      const script = document.createElement("script");
-      script.async = true;
-      script.defer = true;
-      script.crossOrigin = "anonymous";
-      script.src =
-        "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0";
-      document.body.appendChild(script);
-    } else {
-      window.FB.XFBML.parse();
-    }
-  }, []);
 
   return (
     <section
@@ -98,14 +82,13 @@ function About() {
         }
       `}</style>
 
-      {/* ===== Video thực tế (YouTube + Facebook) ===== */}
+      {/* ===== Video YouTube Thực tế ===== */}
       <motion.div
-        className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center"
+        className="my-16 flex justify-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        {/* 🎬 YouTube Shorts */}
         <div className="relative w-[320px] md:w-[400px] aspect-[9/16] rounded-xl overflow-hidden shadow-lg">
           <iframe
             src="https://www.youtube.com/embed/mXWFH8Qhsz4?controls=1&autoplay=0&modestbranding=1"
@@ -115,16 +98,6 @@ function About() {
             allowFullScreen
             className="absolute top-0 left-0 w-full h-full"
           ></iframe>
-        </div>
-
-        {/* 📹 Facebook Reels */}
-        <div className="relative w-[320px] md:w-[400px] rounded-xl overflow-hidden shadow-lg bg-gray-100 flex justify-center items-center">
-          <div
-            className="fb-video"
-            data-href="https://www.facebook.com/reel/607705688293190"
-            data-width="400"
-            data-show-text="false"
-          ></div>
         </div>
       </motion.div>
 
@@ -141,11 +114,11 @@ function About() {
         </p>
         <p className="text-gray-800 text-lg flex items-center gap-2">
           <FaCheckCircle className="text-green-600" />
-          Vật liệu cao cấp: mica, inox sáng bóng – bền đẹp theo thời gian.
+          Vật liệu cao cấp: mica 3.5mm, inox sáng bóng – bền đẹp theo thời gian.
         </p>
         <p className="text-gray-800 text-lg flex items-center gap-2">
           <FaCheckCircle className="text-green-600" />
-          Ép nhanh – giao ngay, đảm bảo đúng hẹn & đúng tiêu chuẩn.
+          Bảo hành 24 tháng – Ép nhanh, giao ngay, đúng hẹn & đúng tiêu chuẩn.
         </p>
         <p className="text-gray-800 text-lg flex items-center gap-2">
           <FaCheckCircle className="text-green-600" />
