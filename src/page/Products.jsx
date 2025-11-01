@@ -16,7 +16,7 @@ export default function Products() {
       after: "https://i.postimg.cc/sx4PWqH2/35.jpg",
     },
     {
-      before: "https://i.postimg.cc/L53kPwQ5/36.jpg",
+      before: "https://i.postimg.cc/zGDZP26b/71.jpg",
       after: "https://i.postimg.cc/QCJg7wYV/37.jpg",
     },
     {
