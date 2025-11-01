@@ -151,6 +151,25 @@ function Gallery() {
     ))}
   </div>
 </motion.div>
+    {/* Nút chuyển sang trang Products */}
+<motion.div
+  className="mt-16 text-center"
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+>
+  <a
+    href="/products"
+    className="inline-block px-10 py-4 bg-gradient-to-r from-indigo-700 via-indigo-500 to-yellow-400 
+               text-white font-semibold text-lg rounded-full shadow-lg 
+               hover:shadow-2xl hover:scale-105 transition-all duration-500"
+  >
+    🔍 Xem Hình Ảnh Trước & Sau Khi Làm Biển
+  </a>
+  <p className="mt-3 text-gray-600 text-sm">
+    So sánh chất lượng thật — Trước & Sau khi ép tại <strong>ÉP BIỂN SỐ THỨC</strong>
+  </p>
+</motion.div>
 
 
       {/* CTA cuối trang */}

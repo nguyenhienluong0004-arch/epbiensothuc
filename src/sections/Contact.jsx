@@ -15,7 +15,7 @@ function Contact() {
       <div className="max-w-3xl mx-auto mb-10 space-y-3 text-lg">
         <p>
           <FaMapMarkerAlt className="inline-block mb-1 text-yellow-400 mr-2" />
-          <span>Thức Ép Biển Số – Bình Hòa, Thuận An, Bình Dương</span>
+          <span>Thức Ép Biển Số – Bình Hòa, Thuận An, Đồng Nai</span>
         </p>
         <p>
           <FaPhoneAlt className="inline-block mb-1 text-yellow-400 mr-2" />
